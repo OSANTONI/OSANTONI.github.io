@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="estilos 2.css">
+    <link rel="html" href="registro.html">
+    <link rel="html" href="registro2.html">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="main.css">
+    <!-- Mis javascript -->
+    <script src="logic.js"></script>
+
+</head>
+
+
+
+<body id="body">
+
+    <header>
+
+
+
+        <div id="portada">
+            <img src="imagenes/logobn2.png" id="logo" alt="logo empresa">
+
+        </div>
+
+
+
+    </header>
+
+    <main name="main">
+        <!--inicio barra de navegación lateral -->
+        <nav class="navbar navbar-dark bg-dark fixed-top" id="nav">
+            <div class="container-fluid">
+
+                <!-- inicio menú superior en línea -->
+                <nav>
+
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <div>
+                            <img src="imagenes/logo2.png" id="logo2" alt="logo empresa">
+                        </div>
+                        <a href="#quienessomos"> <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                aria-selected="true"> Quienes somos</button></a>
+                        <a href="#nuestrosproductos"> <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                aria-selected="false"> Nuestros
+                                productos</button></a>
+                        <a href="#cotizaciones"> <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                                aria-selected="false"> Cotizaciones</button></a>
+
+                        <a href="#contactanos"> <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled"
+                                aria-selected="false"> Contactanos</button></a>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                        tabindex="0"></div>
+
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                        tabindex="0"></div>
+
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"
+                        tabindex="0"></div>
+
+                    <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab"
+                        tabindex="0"></div>
+                </div>
+                <!-- fin menú superior en línea -->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">MI USUARIO
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">PERFIL</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="registro.html">Acceder</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="registro2.html">Registrarme</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Mis seguros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Configuración</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cerrar sesión</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--fin barra de navegación lateral -->
+
+
+
+        <!--CREAR DIV VACIO  no sirviooooo!!!!!! ver tema video incrustado, ver tema boton a registro, ver texto que se desacomoda cuando cambio de pantalla, ver luz de menu -->
+
+
+        <section id="quienessomos">
+
+
+            <!-- inicio aside -->
+
+            <aside id="aside">
+                <ul>
+                    <p id="atencion">ATENCIÓN DE LUNES A VIERNES </p>
+                    <p id="atencion2"> DE 8:00 A 12:30 HS <br> DE 15:30 A 19:00 HS</p>
+                    <p id="villaeloisa"><a style="color: rgb(64, 211, 64);" href="https://goo.gl/maps/ofPTBZTezoqZ282L9"
+                            target="_blank"> San Martin 902, Villa Eloisa</a></p>
+                </ul>
+                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d836.8956506883618!2d-61.545083299999995!
+            3d-32.9620278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe52011e55cd06411!2zMzLCsDU3JzQzLjMiUyA
+            2McKwMzInNDIuMyJX!5e0!3m2!1ses-419!2sar!4v1658787762863!5m2!1ses-419!2sar" width="95%" height="215px"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br> <br>
+                <p id="comentario">NO DUDES EN BUSCARNOS EN LAS REDES</p>
+                <div id="redsoc">
+                    <a href="https://www.instagram.com/mcs.seguros/?hl=es-la"><img id="ig" src="imagenes/ig.png"
+                            alt="usuario instagram"></a>
+                    <a
+                        href="https://wa.me/543471684263?text=Me%20interesa%20conocer%20más%20sobre%20sus%20ofertas%20y%20productos"><img
+                            id="wpp" src="imagenes/wpp.png" alt="usuario whatsapp"></a>
+                </div>
+
+                <div id="caja">
+                    <img id="mama" src="imagenes/mama.jpeg" alt="productora y asesora">
+                    <p id="mama2"> María Cristina Svagusa <br> Gerente y ganadora premio a la <br> mejor vendedora RUS
+                        2018
+                    </p>
+
+                </div>
+            </aside>
+
+            <!--   fin aside -->
+
+
+            <!--inicio imágenes desplazables -->
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagenes/1.png" class="d-block w-100" alt="Publicidad y ofertas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/2.png" class="d-block w-100" alt="Publicidad y ofertas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/3.png" class="d-block w-100" alt="Publicidad y ofertas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/4.png" class="d-block w-100" alt="Publicidad y ofertas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/5.png" class="d-block w-100" alt="Publicidad y ofertas">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <article>
+                <!--fin imágenes desplazables -->
+                <p id="nosotros">Sobre nosotros...</p>
+
+                <p id="presentacion">Somos una empresa nacida en Villa Eloisa con más de 20 años de <b>experiencia</b>.
+                    Nuestro
+                    origen se dio para cubrir la necesidad
+                    presentada por los agropecuarios locales de tener un lugar donde puedan realizar seguros para sus
+                    equipos,
+                    empleados y tierras
+                    de forma rápida y ordenada. Hoy ofrecemos nuestros servicios por todo el Departamento Iriondo.
+                    <br> <br>
+                    Los Productores Asesores de Seguros somos intermediarios entre el asegurado y la compañía de
+                    seguros.
+                    Asesoramos a las personas para ofrecerles
+                    los diferentes seguros que mejor se adapten a sus necesidades. Nuestro diferencial fue, es y será la
+                    <b>atención personalizada</b> y el
+                    <b>asesoramiento permanente</b>.
+                    <br><br>
+
+                    Comercializamos seguros de:
+                </p>
+                <ul id="lista">
+                    <li>Automotor </li>
+                    <li>Motovehículos</li>
+                    <li>Granizo</li>
+                    <li>Combinado Familiar</li>
+                    <li>Vida</li>
+                    <li>Transporte</li>
+                    <li>Accidentes Personales</li>
+
+                </ul>
+                <br>
+
+            </article>
+            <iframe id="video" width="550" height="310" src="https://www.youtube.com/embed/KHiLrXLbfMk"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+
+        </section>
+
+
+        <!-- inicio sección 2 -->
+
+        <section id="nuestrosproductos">
+            <p id="parrsecc2">Ofrecemos las mejores compañías</p>
+
+            <!-- inicio mis cartas omar -->
+            <div class="container1">
+                <div class="card1">
+                    <figure>
+                        <img class="imgcard" src="imagenes/elnorte.png" alt="El norte seguros">
+                    </figure>
+                    <div class="contenido1">
+                        <h3 class="h3card">Misión, visión y valores </h3>
+                        <p class="parrafocard">
+                            Aseguramos el patrimonio y la vida de las personas, mediante un servicio personalizado de
+                            alta calidad,
+                            con el soporte de un grupo humano comprometido y afirmado sobre nuestros valores
+                            fundamentales. <br>
+                            Nuestra misión es consolidar nuestra historia, direccionados
+                            hacia una organización dinámica y eficiente, en desarrollo sostenido, rentable y
+                            sustentable. <br>
+                            Hacemos alarde de valores importantes como integridad, Compromiso, Responsabilidad y Trabajo
+                            en equipo.
+                        </p>
+                        <a class="acard" href="https://www.elnorte.com.ar/empresa/#valores" target="_blank">Leer más</a>
+                    </div>
+                </div>
+
+                <div class="card1">
+                    <figure>
+                        <img class="imgcard" src="imagenes/sancristobal.jpg" alt="San Cristobal seguros">
+                    </figure>
+                    <div class="contenido1">
+                        <h3 class="h3card">Tenemos la experiencia </h3>
+                        <p class="parrafocard">
+                            Somos una empresa de seguros argentina
+                            nacida en Rosario, hace más de 80 años. Hoy formamos parte del
+                            Grupo San Cristóbal. Aseguramos a más de 895.000 clientes y tenemos presencia en Argentina y
+                            Uruguay. <br>
+                            El crecimiento permanente, la eficaz administración de nuestros recursos y la gestión de
+                            nuestros
+                            negocios nos convirtieron en una empresa líder,
+                            caracterizada por honrar sus acuerdos, y con el foco en escuchar
+                            y dar respuesta a las necesidades de nuestros clientes. <br>
+
+
+
+                        </p>
+                        <a class="acard" href="https://www.sancristobal.com.ar/institucional/nosotros/"
+                            target="_blank">Leer más</a>
+                    </div>
+                </div>
+
+                <div class="card1">
+                    <figure>
+                        <img class="imgcard" src="imagenes/sancor.png" alt="Sancor seguros">
+                    </figure>
+                    <div class="contenido1">
+                        <h3 class="h3card">¿Quiénes somos? </h3>
+                        <p class="parrafocard">
+                            Sancor Cooperativa de Seguros Ltda.
+                            nació en Sunchales, Santa Fe, en 1945. Esta le dio origen al Grupo
+                            Asegurador Sancor Seguros. Con Casa Central en Sunchales ha logrado expandirse a
+                            Uruguay, Paraguay, Brasil y Colombia. <br>
+
+                            Lidera el mercado asegurador no solo en cuanto a facturación, sino también por el
+                            reconocido trabajo en seguridad y prevención, y por su imagen y transparencia. <br>
+                            Nuestra visión se basa en liderar el mercado asegurador nacional y consolidar nuestra
+                            presencia
+                            regional, con servicios de alta calidad, innovación y responsabilidad social.
+
+
+                        </p>
+                        <a class="acard" href="https://www.sancorseguros.com.ar/quienes-somos" target="_blank">Leer
+                            más</a>
+                    </div>
+                </div>
+
+                <div class="card1">
+                    <figure>
+                        <img class="imgcard" src="imagenes/segurosrivaadavia.jpg" alt="Seguros Rivadavia">
+                    </figure>
+                    <div class="contenido1">
+                        <h3 class="h3card">Nuestra filosofía</h3>
+                        <p class="parrafocard">
+                            Nuestra filosofía empresarial se apoya en las siguientes premisas: "Prestar el mejor
+                            servicio, ofrecer
+                            alternativas de mayor beneficio para el público y otorgar las garantías
+                            de seguridad". <br>
+
+                            Ocupamos una posición de relevancia en el sector asegurador argentino, afirmándonos como una
+                            entidad altamente profesional,
+                            modelo de seriedad y solidez. <br>
+
+                            Identificamos nuestros valores y somos consecuentes con los mismos. Reflejamos
+                            quiénes somos a través del enunciado de nuestra misión y proyectamos hacia dónde nos
+                            dirigimos mediante la formulación
+                            de nuestra visión.
+
+
+                        </p>
+                        <a class="acard" href="http://www.segurosrivadavia.com/institucional/nosotros/"
+                            target="_blank">Leer más</a>
+                    </div>
+                </div>
+                <div class="card1">
+                    <figure>
+                        <img class="imgcard" src="imagenes/rus.png" alt="Río Uruguay seguros">
+                    </figure>
+                    <div class="contenido1">
+                        <h3 class="h3card">Nuestra empresa </h3>
+                        <p class="parrafocard">
+                            Río Uruguay Cooperativa de Seguros Limitada avanza, con inquietudes e imaginación; mejorando
+                            su infraestructura; replanteando sus sistemas de comunicaciones; encarando planes de Calidad
+                            Total,
+                            emprendiendo profundos procesos de Re-Diseño, teniendo como meta la excelencia en el
+                            servicio. <br>
+
+                            Asimismo se cumple con un rol protagónico en la Asociación Argentina de Cooperativas y
+                            Mutualidades de
+                            Seguros de la República Argentina, impulsando proyectos de complementación y atención
+                            recíproca entre las
+                            instituciones asociadas.
+
+
+                        </p>
+                        <a class="acard" href="https://www.riouruguay.com.ar/nosotros" target="_blank">Leer más</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- fin mis cartas omar -->
+
+
+        </section>
+
+        <!-- fin sección 2 -->
+
+        <!--INICIO SECCIÓN 3 -->
+
+        <section name="secc" id="cotizaciones">
+            <p id="cotiz">Cotizá tu seguro online</p>
+
+            <img id="mega" src="imagenes/mega.png" alt="ofertas de seguros">
+
+            <div id="jsjs" class="container d-flex justify-content-center align-items-center">
+                <div class="card">
+                    <div class="card-header text-warning h4 font-wight-bolder">
+                        Elige tus opciones
+                    </div>
+
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="departamento" class="text-uppercase text-primary">Empresa Aseguradora</label>
+                            <select name="" id="departamento" class="custom-select">
+                                <!-- cargaremos las etiquetas de option con javascript -->
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="provincia" class="text-uppercase text-primary">Unidad a Asegurar</label>
+                            <select name="" id="provincia" class="custom-select">
+                                <!-- cargaremos las etiquetas de option con javascript -->
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="distrito" class="text-uppercase text-primary">Tipo de seguro</label>
+                            <select name="" id="distrito" class="custom-select">
+                                <!-- cargaremos las etiquetas de option con javascript -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="distrito" class="text-uppercase text-primary">Valor aproximado de su
+                                seguro</label>
+                            <select name="" id="cash" class="custom-select">
+                                <!-- cargaremos las etiquetas de option con javascript -->
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- añadimos el archivo javascript -->
+            <script src="main.js"></script>
+
+
+            <!-- inicio selección clase de seguro 
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            <form name="formulario1" action="#"><select name="cosa" onchange="cambia()"
+                                    class="form-select" aria-label="Default select example" style="width: 80%;">
+                                    <option value="0">Selecciona una opción</option>
+                                    <option value="1">El Norte</option>
+                                    <option value="2">San Cristobal</option>
+                                    <option value="3">Sancor Seguros</option>
+                                    <option value="4">Seguros Rivadavia</option>
+                                    <option value="5">Río Uruguay</option>
+                                </select>
+                                <select  class="form-select" name="opt" style="width: 80%;">
+                                    <option value="-">-
+                                </select>
+                            </form>
+                        </th>
+
+                        <script type="text/javascript">
+                            var opt_1 = new Array("Seleccione", "Personas", "Empresas", "Agro", "Caución");
+                            var opt_2 = new Array("Seleccione", "Automotor", "Hogar", "Vida", "Embarcaciones", "Motos");
+                            var opt_3 = new Array("Seleccione", "Hogar", "Vehículo", "Agro", "Empresas");
+                            var opt_4 = new Array("Seleccione", "Automotores", "Hogar", "Vida", "Embarcaciones");
+                            var opt_5 = new Array("Seleccione", "Autos y motos", "Hogar", "Embarcaciones", "Personas");
+                            
+                            function cambia(){
+				var cosa;
+				//Se toma el vamor de la "cosa seleccionada"
+				cosa = document.formulario1.cosa[document.formulario1.cosa.selectedIndex].value;
+				//se chequea si la "cosa" esta definida
+				if(cosa!=0){
+					//selecionamos las cosas Correctas
+					mis_opts=eval("opt_" + cosa);
+					//se calcula el numero de cosas
+					num_opts=mis_opts.length;
+					//marco el numero de opt en el select
+					document.formulario1.opt.length = num_opts;
+					//para cada opt del array, la pongo en el select
+					for(i=0; i<num_opts; i++){
+						document.formulario1.opt.options[i].value=mis_opts[i];
+						document.formulario1.opt.options[i].text=mis_opts[i];
+					}
+					}else{
+						//si no habia ninguna opt seleccionada, elimino las cosas del select
+						document.formulario1.opt.length = 1;
+						//ponemos un guion en la unica opt que he dejado
+						document.formulario1.opt.options[0].value="-";
+						document.formulario1.opt.options[0].text="-";
+					}
+					//hacer un reset de las opts
+					document.formulario1.opt.options[0].selected = true;
+					
+				}
+                        </script>
+
+                        <th scope="col"> <select class="form-select" aria-label="Default select example"
+                                style="width: 80%;">
+                                <option selected>Selecciona una opción</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select></th>
+                        <th scope="col"> <select class="form-select" aria-label="Default select example"
+                                style="width: 80%;">
+                                <option selected>Selecciona una opción</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select></th>
+                    </tr>
+                </thead>
+            </table>
+-->
+
+            <!-- fin selección clase de seguro -->
+
+        </section>
+        <!-- FIN SECCIÓN 3 -->
+
+        <!-- INICIO SECCIÓN 4 -->
+        <section id="contactanos">
+            <P id="comunicate">Comunicate con nosotros</P>
+
+            <div id="tabla_movil">
+                <table id="tabla" border="0">
+                    <tr>
+                        <td id="staff" colspan="3">
+                            <center> NUESTRO STAFF</center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="staff1" style="background-image: url(imagenes/staff1.jpeg); height: 350px; width: 30%;">Maria
+                            Cristina Svagusa</td>
+                        <td id="staff1" style="background-image: url(imagenes/staff2.jpg); height: 350px; width: 30%;">Maria Jose
+                            Alesandrini</td>
+                        <td id="staff1" style="background-image: url(imagenes/staff3.jpg); height: 350px; width: 30%;">Lucas
+                            Osella
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+
+            <div id="opinion">
+                <div class="contenedor__login-register">
+                    <form action="" class="formulario__login">
+                        <h2>Dejanos tu consulta</h2>
+                        <input type="text" placeholder="Nombre Completo" required />
+                        <input type="text" placeholder="Correo Electrónico" required />
+                        <br><br>
+                        <p> Mensaje:</p>
+
+                        <textarea name="comentarios" id="com" placeholder="250 caracteres máx." cols="35" rows="6"
+                            maxlength="250" required></textarea><br>
+                        <input
+                            style="padding: 3px; background-color: rgb(111, 214, 51); color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
+                            type="submit" value="Enviar">
+
+                        <input
+                            style="padding:3px; background-color: rgb(111, 214, 51); color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
+                            type="reset" name="Anular">
+
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- FIN SECCIÓN 4 -->
+
+
+       
+        <script>
+            const li = document.querySelectorAll(".nav-link");
+            const sec = document.querySelectorAll("section");
+
+            function activeMenu() {
+                let len = sec.length;
+                while (--len && window.scrollY + 97 < sec[len].offsetTop) { }
+                li.forEach(ltx => ltx.classList.remove("active"));
+                li[len].classList.add("active");
+            }
+            activeMenu();
+            window.addEventListener("scroll", activeMenu);
+
+        </script>
+
+
+        <!-- INICIO SECCIÓN 5 -->
+
+        <section id="redes">
+
+            <a
+                href="https://wa.me/543471684263?text=Me%20interesa%20conocer%20más%20sobre%20sus%20ofertas%20y%20productos">
+                <img id="socialmedia" class="centrar" src="imagenes/wpp4.png" alt="Whatsapp"></a>
+
+
+            <a href="https://www.instagram.com/mcs.seguros/?hl=es-la"> <img id="socialmedia" src="imagenes/ig3.png"
+                    alt="Contacto instagram"></a>
+
+
+            <img id="socialmedia" src="imagenes/tw3.png" alt="Contacto twitter">
+
+            <a href="https://www.facebook.com/mcs.seguros/"> <img id="socialmedia" src="imagenes/f.png"
+                    alt="Contacto facebook"></a>
+
+        </section>
+
+        <!-- FIN SECCIÓN 5 -->
+
+    </main>
+
+    <footer id="footer">
+
+        <p id="derechos">mcsseguros.com - Todos los derechos son reservados.</p>
+
+        <ul class="list">
+            <li><a href="pdf/Términos y condiciones.pdf" target="_blank">Términos y condiciones</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;|</li>
+            <li>&nbsp;&nbsp; <a href="pdf/Privacidad y seguridad.pdf" target="_blank">Política de privacidad </a></li>
+        </ul>
+
+        <img id="flogo" src="imagenes/logo5.png" alt="Logo de la empresa">
+
+
+    </footer>
+
+
+</body>
+
+</html>

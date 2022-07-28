@@ -1,0 +1,574 @@
+/* GENERAL */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* FIN GENERAL */
+
+/* INICIO BARRA DE NAVEGACIÓN */
+
+
+
+header {
+    height: 65px;
+    background-image: url("imagenes/FFF.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -630px;
+}
+
+
+#logo2 {
+    margin-top: 5px;
+    margin-right: 10px;
+
+    height: 33px;
+}
+
+
+
+#logo {
+    margin-top: -5px;
+    height: 180px;
+    position: relative;
+    top: -45px;
+    right: -10px;
+}
+
+#nav {
+    position: sticky;
+    margin-left: -10px;
+
+}
+
+#nav-home {
+    color: white;
+
+}
+
+#nav-home-tab {
+    color: rgb(102, 125, 168);
+}
+
+#nav-profile {
+    color: white;
+}
+
+#nav-profile-tab {
+    color: rgb(102, 125, 168);
+}
+
+
+#nav-contact {
+    color: white;
+}
+
+#nav-contact-tab {
+    color: rgb(102, 125, 168);
+}
+
+#nav-disabled {
+    color: white;
+}
+
+#nav-disabled-tab {
+    color: rgb(102, 125, 168);
+}
+
+
+#menu {
+    position: relative;
+    top: 900px;
+}
+
+/* FIN BARRA DE NAVEGACIÓN */
+
+
+/* INICIO SECCIÓN 1 */
+
+#quienessomos {
+    height: 1110px;
+}
+
+#carouselExampleFade {
+    width: 80%;
+    float: left;
+}
+
+#nosotros {
+    width: 77%;
+    float: left;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size: 150%;
+    margin-right: 15px;
+    font-family: "Segoe IU", sans-serif;
+    color: rgb(126, 254, 52);
+}
+
+#presentacion {
+    width: 77%;
+    float: left;
+    margin-left: 15px;
+
+    font-size: 130%;
+    margin-right: 15px;
+    font-family: "Segoe IU", sans-serif;
+}
+
+#lista {
+    width: 21%;
+    float: left;
+    margin-left: 45px;
+    list-style: none;
+    color: black;
+    font-size: 130%;
+    font-family: "Segoe IU", sans-serif;
+}
+
+#lista li::before {
+    content: "►   ";
+    color: green;
+}
+
+#aside {
+
+    text-align: left;
+    height: 100%;
+    float: right;
+    width: 20%;
+    background-color: rgba(82, 94, 134, 0.849);
+}
+
+
+#ig {
+
+    height: 20px;
+    margin-left: 40.5%;
+    margin-top: -10%;
+}
+
+#wpp {
+    height: 45px;
+    margin-left: 0%;
+    margin-top: -10%;
+}
+
+
+#atencion {
+    font-family: "Segoe IU", sans-serif;
+    font-size: medium;
+    margin-top: 20px;
+    color: white;
+
+}
+
+#atencion2 {
+    font-family: "Segoe IU", sans-serif;
+    font-size: medium;
+    margin-top: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+#villaeloisa {
+    color: rgb(170, 177, 29);
+    margin-left: 2.8%;
+}
+
+#mapa {
+    border-width: 3px;
+    border-color: black;
+    border-style: ridge;
+    margin-left: 2.5%;
+}
+
+#comentario {
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#mama {
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+#mama2 {
+    margin-top: 3px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+#video {
+    width: 40%;
+    float: left;
+    margin-left: 150px;
+}
+
+
+/* FIN SECCIÓN 1 */
+
+@media screen and (max-width:1024px) {
+    .clickafter {
+        content: "Tablet";
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .clickafter {
+        content: "Movil";
+    }
+
+}
+
+
+/* INICIO SECCIÓN 2 */
+
+
+
+
+#nuestrosproductos {
+    width: 100%;
+    padding-top: 2%;
+    background-color: rgba(134, 149, 196, 0.849);
+}
+
+#parrsecc2 {
+    width: 77%;
+    float: left;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size: 150%;
+    margin-right: 15px;
+    font-family: "Segoe IU", sans-serif;
+    color: rgba(55, 70, 114, 0.849);
+}
+
+/* INICIO MIS CARTAS */
+
+.container1 {
+    width: 100%;
+    display: flex;
+    max-width: 100%;
+}
+
+.card1 {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card1:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.imgcard {
+    width: 100%;
+    height: 210px;
+}
+
+
+.contenido1 {
+    padding: 15px;
+    text-align: center;
+}
+
+.parrafocard {
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+.h3card {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.acard {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.acard:hover {
+    background: #2fb4cc;
+    color: #fff;
+}
+
+/* FIN MIS CARTAS */
+
+/* FIN SECCIÓN 2 */
+
+
+/* INICIO SECCIÓN 3 */
+
+#mega{
+width: 30%;
+margin-left: 12%;
+float: left;
+margin-top: 6%;
+
+
+}
+
+#cotizaciones {
+    padding-top: 3%;
+}
+
+#cotiz {
+    width: 77%;
+    float: left;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size: 150%;
+    margin-right: 15px;
+    font-family: "Segoe IU", sans-serif;
+    color: rgb(126, 254, 52);
+    margin-bottom: -200px;
+}
+
+#jsjs{
+margin-bottom: -100px;
+width: 30%;
+}
+
+
+
+/* FIN SECCIÓN 3 */
+
+
+/* INICIO SECCIÓN 4 */
+
+#comunicate {
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size: 150%;
+    margin-right: 15px;
+    font-family: "Segoe IU", sans-serif;
+    color: rgba(55, 70, 114, 0.849);
+}
+
+#tabla_movil {
+    width: 100%;
+    display: flex;
+}
+
+#tabla {
+    width: 70%;
+    margin-left: 15%;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    background: #fff;
+}
+
+
+.tabla:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateX(-30%);
+}
+
+#staff {
+    background-color: rgba(82, 94, 134, 0.849);
+    color: white;
+    height: 30px;
+    font-weight: bolder;
+}
+
+#nombres {
+    height: 30px;
+    vertical-align: top;
+    text-align: center;
+    background-color: rgba(82, 94, 134, 0.849);
+    color: white;
+}
+
+#tr {
+    height: 200%;
+}
+
+#staff1 {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    vertical-align: bottom;
+    aling: center;
+    text-align: center;
+    color: white;
+    background-color: rgba(82, 94, 134, 0.849);
+    font-size: 120%;
+}
+
+#comentarios {
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size: 150%;
+    margin-right: 15px;
+    font-family: "Segoe IU", sans-serif;
+    color: rgba(55, 70, 114, 0.849);
+}
+
+
+#opinion {
+
+    padding: 25px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    border-radius: 8px;
+}
+
+#contactanos {
+    padding-top: 3%;
+    background-color: rgba(197, 204, 227, 0.849);
+    height: 1300px;
+}
+
+
+/*opinion simil registro*/
+.contenedor__login-register {
+
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    margin-left: 35%;
+
+}
+
+.formulario__login {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+.contenedor__login-register form {
+    width: 26%;
+    padding: 80px 20px;
+    background: white;
+    position: absolute;
+    border-radius: 20px;
+}
+
+
+.contenedor__login-register form h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(126, 254, 52);
+}
+
+.contenedor__login-register form input {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor__login-register form button {
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #46A2FD;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+
+
+/* FIN SECCIÓN 4 */
+
+/*INICIO SECCIÓN 5*/
+
+#redes{
+    background-image: url("imagenes/trigo3.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/*
+#entorno{
+float: left;
+border-width: 0px;
+border-color: black;
+border-style: solid;
+height: 150px;
+width: 150px;
+border-radius: 90px;
+margin-left: 20px;
+background-size: 90%;
+background-repeat: no-repeat;
+align-items: center;
+}
+*/
+
+#socialmedia{
+margin-left: 17%;
+height: 40px;
+width: 40px;
+margin-top: 7%;
+margin-bottom: 7%;
+}
+
+/*FIN SECCIÓN 5*/
+
+/*INICIO FOOTER*/
+
+footer{
+    background-color: #67da63d3;
+
+}
+
+#derechos{
+width: 30%;
+float: left;
+margin-left: 1.5%;
+}
+
+#flogo{
+    width: 20%;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 39%;
+}
+
+.list{
+    width: 30%;
+    float: right;
+}
+
+.list li{
+    display: inline;
+}
+
+
+
+/*FIN FOOTER*/
